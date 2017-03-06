@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item android:id="@+id/viewinfo"
+          android:icon="@drawable/sms"
+          android:title="View Info"
+          app:showAsAction="ifRoom"
+         />
+    <item android:id="@+id/update"
+        android:icon="@drawable/telephone"
+        android:title="Update"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/delete"
+        android:icon="@drawable/telephone"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+
+        />
+    <item android:id="@+id/monitor"
+        android:icon="@drawable/telephone"
+        android:title="Monitor"
+        app:showAsAction="ifRoom"
+
+        />
+</menu>
